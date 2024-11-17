@@ -5,11 +5,17 @@
     Explain about the Experiment.
 
 ## ALGORITHM
- ### Steps 1:
- ### Steps 2:
- ### Steps 3:
- ### Steps 4:
- ### Steps 5:
+### Steps 1:
+Launch an EC2 instance in AWS using an Amazon Linux 2 AMI with a Security Group allowing HTTP and SSH traffic.
+
+### Steps 2:
+Connect to the instance using SSH and install a web server like Apache
+
+### Steps 3:
+Create a simple HTML file in the server's default directory with basic content for testing.
+
+### Steps 4:
+Access the instance's public IP in a browser to verify the HTML page is displayed.
 ## COMMANDS
 ### To install httpd:
 ```
